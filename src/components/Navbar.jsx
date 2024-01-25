@@ -28,10 +28,10 @@ const Navbar = () => {
     return (
         <header className="header">
             <nav 
-                className={`fixed top-0 z-20 w-full flex items-center py-5 sm:px-8 px-8 ${
+                className={`fixed top-0 z-20 w-full flex items-center py-5 ${
                     scrolled ? "bg-blue-200" : "bg-transparent"} text-lg gap-7 font-medium left-0 right-0`}
             >
-                <div className='w-full flex justify-between items-center max-w-5xl mx-auto'>
+                <div className='w-full flex justify-between items-center max-w-5xl mx-auto max-container nav-div'>
                     <NavLink to="/" className ="flex items-center justify-center">
                         <img src={NameLogo} alt="Logo" className="h-10 w-auto " />
                     </NavLink>

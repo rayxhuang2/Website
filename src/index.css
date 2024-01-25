@@ -51,7 +51,7 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .header {
-    @apply flex justify-between items-center sm:px-16 px-8 py-4 max-w-5xl mx-auto absolute top-0 bg-transparent z-10 right-0 left-0;
+    @apply flex justify-between items-center sm:px-16 px-8 py-4 max-w-5xl mx-auto absolute top-0 bg-transparent z-20 right-0 left-0;
   }
 
   .footer {
@@ -77,6 +77,22 @@ body:has(.card[data-color="green"]:hover) {
   .cta-text {
     @apply text-black-500 font-extrabold flex-1 text-3xl max-md:text-center;
   }
+}
+
+.nav-div {
+    min-height: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0;
+}
+
+.home-screen {
+  min-height: 100vh;
+  height: auto;
+}
+
+.home-work-button {
+  top: calc(100vh - 64px - 0.5rem);
+  max-height: 64px;
 }
 
 .glassmorphism {
